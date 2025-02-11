@@ -3,19 +3,8 @@
 }
 
 .b-nav{
-    /* background: radial-gradient(circle at top left, 
-  #000000 0%, 
-  #210033 50%, 
-  #4a006e 100%); */
-  /* background: linear-gradient(135deg, 
-  #4b6cb7 0%, 
-  #182848 50%, 
-  #e9d362 100%); */
   background: linear-gradient(45deg, #ff0080, #6a00f4, #0f2027, #ff0000);
-
-    }
-
-
+}
 
     /* ludo winner css */
 

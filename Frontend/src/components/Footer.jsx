@@ -15,10 +15,9 @@ const Footer = () => {
         <div className="bg-gradient-to-b from-gray-900 to-black min-h-screen flex flex-col justify-end pb-4">
             <nav className="fixed bottom-0 left-1/2 transform -translate-x-1/2 bg-black bg-opacity-70 shadow-lg rounded-t-xl w-full flex justify-around p-3 md:p-4">
             <NavItem icon={<HomeIcon fontSize="large" />} label="Home" active={active === "home"} onClick={() => setActive("home")} />
-<NavItem icon={<SportsEsportsIcon fontSize="large" />} label="Playzone" active={active === "playzone"} onClick={() => setActive("playzone")} />
-<NavItem icon={<AccountBalanceWalletIcon fontSize="large" />} label="Wallet" active={active === "wallet"} onClick={() => setActive("wallet")} />
-<NavItem icon={<AccountCircleIcon fontSize="large" />} label="Profile" active={active === "profile"} onClick={() => setActive("profile")} />
-
+            <NavItem icon={<SportsEsportsIcon fontSize="large" />} label="Playzone" active={active === "playzone"} onClick={() => setActive("playzone")} />
+            <NavItem icon={<AccountBalanceWalletIcon fontSize="large" />} label="Wallet" active={active === "wallet"} onClick={() => setActive("wallet")} />
+            <NavItem icon={<AccountCircleIcon fontSize="large" />} label="Profile" active={active === "profile"} onClick={() => setActive("profile")} />
             </nav>
         </div>
     );
